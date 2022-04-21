@@ -1,3 +1,35 @@
 html {
-    background: gray;
+    background: #FEC3A6;
+}
+
+.menu-bar {
+    background: #FFAC81;
+    list-style-type: none;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;   
+    font-size: 19px; 
+}
+
+.menu-button-contact {
+    background: #EFE9AE;
+    list-style-type: none;
+    float: left;
+}
+
+.menu-button-index {
+    background: #CDEAC0;
+    list-style-type: none;
+    float: left;
+
+}
+
+.menu-button-product {
+    background: #efaed9;
+    list-style-type: none;
+    float: left;
+}
+
+a:hover {
+        background: #b7c5b0;
 }
