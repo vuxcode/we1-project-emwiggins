@@ -1,15 +1,19 @@
 html {
-    background: #FEC3A6;
+    background: #70587C;
     /* color-scheme: dark; */
 }
 body {
     width: 100vw;
 }
+nav {
+    width: 100%;
+    text-align: center;
+}
 .menu-bar {
-    background: #FFAC81;
+    background: #502F4C;
     list-style-type: none;
     /* margin: 0 auto; */
-    padding: 15px 32px;
+    padding: 5px 10px;
     text-align: center;  
     /* text-decoration: none;  */
     font-size: 19px; 
@@ -20,16 +24,20 @@ body {
     float: left;
     display: inline-block;
 }
+.menu-bar li a {
+    display: inline-block;
+    padding: 16px;
+}
 .menu-button-contact {
-    background: #EFE9AE;
+    background: #c082ec;
 }
 .menu-button-index {
-    background: #CDEAC0;
+    background: #e3baf6;
 }
 .menu-button-product {
-    background: #efaed9;
+    background: #e2d8f2;
 }
 
 a:hover {
-        background: #b7c5b0;
+        background: #C8B8DB;
 }
