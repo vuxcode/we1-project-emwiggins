@@ -5,7 +5,7 @@
 }
 
 html {
-    background: #70587C;
+    background: #c9b0cf;
     /* color-scheme: dark; */
 }
 
@@ -15,7 +15,7 @@ body {
 
 h1 {
     text-align: center;
-    font-size: 80px;
+    font-size: 75px;
     padding-top: 50px;
     padding-bottom: 50px;
 }
@@ -26,13 +26,14 @@ nav {
 }
 
 .menu-bar {
-    background: #502F4C;
+    background: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
     list-style-type: none;
     /* margin: 0 auto; */
-    padding: 5px 10px;
+    padding: 4px 5px;
     text-align: center;  
-    /* text-decoration: none;  */
-    font-size: 22px; 
+    /* text-decoration: none;  */ 
     display: inline-block;
 }
 
@@ -48,17 +49,17 @@ nav {
 }
 
 .menu-button-contact {
-    background: #c082ec;
+    background: #f1c493;
 }
 
 .menu-button-index {
-    background: #e3baf6;
+    background: #c09ad8;
 }
 
 .menu-button-product {
-    background: #e2d8f2;
+    background: #f993a8;
 }
 
 a:hover {
-    background: #C8B8DB;
+    background: #99508d;
 }
