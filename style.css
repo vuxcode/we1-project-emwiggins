@@ -63,3 +63,12 @@ nav {
 a:hover {
     background: #99508d;
 }
+
+.icon {
+    border: solid 5px;
+    min-height: 300px;
+    max-height: 350px;
+    min-width:250;
+    max-width:300px;
+    padding: 0 15px;
+}
