@@ -80,3 +80,10 @@ img {
     height: 285px;
     width: 285px;
 }
+
+.product {
+    border: solid 3px #431c3d;
+    height: 350px;
+    margin: 100px;
+    width: 350px;
+}
