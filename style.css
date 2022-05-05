@@ -65,10 +65,18 @@ a:hover {
 }
 
 .icon {
-    border: solid 5px;
-    min-height: 300px;
+    border: solid 3px #431c3d;
+    /* min-height: 300px;
     max-height: 350px;
-    min-width:250;
-    max-width:300px;
-    padding: 0 15px;
+    min-width:250px;
+    max-width:400px; */
+    height: 300px;
+    margin: 50px;
+    padding: 5px;
+    width: 300px;
+}
+
+img {
+    height: 285px;
+    width: 285px;
 }
