@@ -5,7 +5,7 @@
 }
 
 html {
-    background: #c9b0cf;
+    background: #b0d8ba;
     /* color-scheme: dark; */
 }
 
@@ -18,6 +18,13 @@ h1 {
     font-size: 75px;
     padding-top: 50px;
     padding-bottom: 50px;
+}
+
+.greeting {
+    font-size: 20px;
+    padding-bottom: 20px;
+    padding-top: 20px;
+    text-align: center;
 }
 
 nav {
@@ -49,29 +56,29 @@ nav {
 }
 
 .menu-button-contact {
-    background: #f1c493;
+    background: #c0f193;
 }
 
 .menu-button-index {
-    background: #c09ad8;
+    background: #79d388;
 }
 
 .menu-button-product {
-    background: #f993a8;
+    background: #8fe396;
 }
 
 a:hover {
-    background: #99508d;
+    background: #3f7850;
 }
 
 .icon {
-    border: solid 3px #431c3d;
+    border: solid 3px #1c432a;
     /* min-height: 300px;
     max-height: 350px;
     min-width:250px;
     max-width:400px; */
     height: 300px;
-    margin: 50px;
+    margin: 80px;
     padding: 5px;
     width: 300px;
 }
