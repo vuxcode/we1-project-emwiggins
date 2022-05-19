@@ -38,7 +38,7 @@ nav {
     font-size: 22px;
     list-style-type: none;
     /* margin: 0 auto; */
-    padding: 4px 5px;
+    /* padding: 4px 5px; */
     text-align: center;  
     /* text-decoration: none;  */ 
     display: inline-block;
@@ -121,3 +121,19 @@ fieldset {
     font-size: 20px;
 }
    
+label {
+    padding: 10px;
+}
+
+legend {
+    margin: 0 20px;
+    padding: 5px;
+}
+
+input {
+    
+}
+
+button {
+    font-size: 16px;
+}
