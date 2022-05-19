@@ -10,7 +10,7 @@ html {
 }
 
 body {
-    width: 100vw;
+    width: 100%;
 }
 
 h1 {
@@ -73,19 +73,34 @@ a:hover {
 
 .icon {
     border: solid 3px #1c432a;
-    /* min-height: 300px;
-    max-height: 350px;
-    min-width:250px;
-    max-width:400px; */
-    height: 300px;
+    display: inline-block;
     margin: 80px;
     padding: 5px;
-    width: 300px;
+    text-align: center;
+}
+
+.previews {
+    text-align: center;
+    width: 100%;
+}
+
+.description {
+    display: inline-block;
+    font-size: 33px;
+    font-style:  ;
+    /* padding: 5px; */
+    text-align: center;
+    /* vertical-align: top; */
+    width: 100px;
 }
 
 img {
     height: 285px;
     width: 285px;
+}
+
+.icon img {
+    display: inline-block;
 }
 
 .product {
