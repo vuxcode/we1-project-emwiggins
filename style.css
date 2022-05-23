@@ -33,12 +33,12 @@ nav {
 }
 
 .menu-bar {
-    background: #000000;
+    background: #0a2e25;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 22px;
     list-style-type: none;
     /* margin: 0 auto; */
-    /* padding: 4px 5px; */
+    padding: 2px 4px;
     text-align: center;  
     /* text-decoration: none;  */ 
     display: inline-block;
@@ -104,10 +104,13 @@ img {
 }
 
 .product {
-    border: solid 3px #022110;
+    border: solid 3px #1c432a;
+    display: inline-block;
     height: 350px;
-    margin: 100px;
-    width: 350px;
+    margin: 80px;
+    padding: 5px;
+    text-align: center;
+    /* width: 350px; */
 }
 
 fieldset {
@@ -152,6 +155,8 @@ textarea {
 button {
     display: block;
     font-size: 16px;
+    height: 35px;
     margin: 0 auto;
+    padding: 15 32px;
     width: 80px;
 }
