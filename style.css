@@ -153,6 +153,9 @@ textarea {
 }
 
 button {
+    background-color: #e9ffef;
+    border: 1px solid;
+    cursor: pointer;
     display: block;
     font-size: 16px;
     height: 35px;
