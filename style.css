@@ -46,7 +46,7 @@ nav {
 
 .menu-bar li {
     list-style-type: none;
-    float: left;
+    /* float: left; */
     display: inline-block;
 }
 
@@ -87,7 +87,7 @@ a:hover {
 .description {
     display: inline-block;
     font-size: 33px;
-    font-style:  
+    /* font-style: */
     /* padding: 5px; */
     text-align: center;
     /* vertical-align: top; */
@@ -171,5 +171,4 @@ button {
 .product-link {
     display: inline-block;
     font-size: 30px;
-
 }
