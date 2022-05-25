@@ -22,8 +22,8 @@ h1 {
 
 .greeting {
     font-size: 20px;
-    padding-bottom: 20px;
-    padding-top: 20px;
+    padding-bottom: 15px;
+    padding-top: 40px;
     text-align: center;
 }
 
@@ -40,7 +40,6 @@ nav {
     /* margin: 0 auto; */
     padding: 2px 4px;
     text-align: center;  
-    /* text-decoration: none;  */ 
     display: inline-block;
 }
 
@@ -48,11 +47,13 @@ nav {
     list-style-type: none;
     /* float: left; */
     display: inline-block;
+    
 }
 
 .menu-bar li a {
     display: inline-block;
-    padding: 16px;
+    padding: 18px;
+    text-decoration: none;
 }
 
 .menu-button-contact {
@@ -69,6 +70,14 @@ nav {
 
 a:hover {
     background: #3f7850;
+}
+
+a:link {
+    color: #197c36;
+}
+
+a:visited {
+    color: #197c36;
 }
 
 .icon {
