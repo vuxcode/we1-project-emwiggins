@@ -21,7 +21,7 @@ h1 {
 }
 
 .greeting {
-    font-size: 20px;
+    font-size: 17px;
     padding-bottom: 15px;
     padding-top: 40px;
     text-align: center;
@@ -75,15 +75,16 @@ nav {
 }
 
 a:hover {
-    background: #3f7850;
+    background: #6ab680;
 }
 
-a:link {
-    color: #091e0f;
-}
-
+a:link,
 a:visited {
     color: #091e0f;
+}
+
+a:visited{
+    color: black;
 }
 
 .icon {
@@ -121,11 +122,11 @@ img {
 .product {
     border: solid 3px #1c432a;
     display: inline-block;
-    height: 350px;
-    margin: 80px;
+    height: 335px;
+    margin: 200px;
     padding: 5px;
     text-align: center;
-    /* width: 350px; */
+    width: 335px;
 }
 
 fieldset {
