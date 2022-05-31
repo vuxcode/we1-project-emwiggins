@@ -4,6 +4,8 @@
     padding: 0;
 }
 
+
+
 html {
     /* background: #b0c7ba; */
         background-image: linear-gradient(180deg, rgb(143, 210, 169), rgb(79, 134, 96));
@@ -122,9 +124,9 @@ img {
 .product {
     border: solid 3px #1c432a;
     display: inline-block;
-    height: 335px;
-    margin: 200px;
-    padding: 5px;
+    height: 300px;
+    margin: 200px 330px;
+    /* padding: 200px; */
     text-align: center;
     width: 335px;
 }
@@ -159,9 +161,9 @@ input {
     width: 200px;
 }
 
-input {
+/* input {
     
-}
+} */
 
 textarea {
     text-align: center;
@@ -187,4 +189,11 @@ button {
 .product-link {
     display: inline-block;
     font-size: 30px;
+}
+
+.click-here {
+    display: inline-block;
+    font-size: 33px;
+    text-align: center;
+    /* width: 100px; */
 }
