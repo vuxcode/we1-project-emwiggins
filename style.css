@@ -100,13 +100,13 @@ a:visited{
 }
 
 .preview {
-    margin: 80px 30px;
+    margin: 130px 30px;
 }
 
 .icon {
     border: solid 2px #1c432a;
     display: inline-block;
-    margin: 30px 50px;
+    margin: 0px 80px;
     padding: 5px;
     text-align: center;
 }
@@ -115,13 +115,15 @@ a:visited{
     display: inline-block;
     font-size: 33px;
     /* font-style: */
-    /* padding: 0 10px; */
+    padding: 25px 0px;
     text-align: left;
-    /* vertical-align: top; */
-    /* width: 301px; */
+    vertical-align: top;
+    width: 301px;
 }
 
-
+p {
+    font-size: 20px;
+}
 
 img {
     height: 285px;
