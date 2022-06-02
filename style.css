@@ -135,7 +135,7 @@ img {
 }
 
 .icon img {
-    display: inline-block;
+    display: block;
 }
 
 .product {
