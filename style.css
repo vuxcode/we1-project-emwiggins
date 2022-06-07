@@ -1,0 +1,234 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Molle&family=Pacifico&display=swap'); */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+html {
+    /* background: #b0c7ba; */
+        background-image: linear-gradient(180deg, rgb(163, 231, 170), rgb(111, 192, 131));
+}
+
+body {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 100%;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    font-family: 'Pacifico', cursive;
+    /* font-family: 'Molle', cursive; */
+    /* font-family: 'Pacifico', cursive; */
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.greeting {
+    font-size: 17px;
+    padding-bottom: 15px;
+    padding-top: 40px;
+    text-align: center;
+}
+
+nav {
+    /* width: 100%; */
+    text-align: center;
+}
+
+.menu-bar {
+    /* background: #0a2e25; */
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 22px;
+    list-style-type: none;
+    /* margin: 0 auto; */
+    /* padding: 2px 4px; */
+    text-align: center;  
+    display: inline-block;
+}
+
+.menu-bar li {
+    list-style-type: none;
+    /* float: left; */
+    display: inline-block;
+    
+}
+
+.menu-bar li a {
+    display: inline-block;
+    padding: 18px;
+    text-decoration: none;
+}
+
+.menu-button-contact {
+    background: #4dcd40;
+    /* background: #0ebd79; */
+    height: 65px;
+    width: 120px;
+}
+
+.menu-button-index {
+    background: #bda50e;
+    /* background: #0ebd79; */
+    height: 65px;
+    width: 120px;
+}
+
+.menu-button-product {
+    /* background: #69d19a; */
+    background: #0ebd79;
+    height: 65px;
+    width: 120px;
+}
+
+a:hover {
+    background: #5fe697;
+}
+
+a:link,
+a:visited {
+    color: #091e0f;
+}
+
+a:visited{
+    color: black;
+}
+
+.previews {
+    text-align: center;
+    /* width: 100%; */
+}
+
+.preview {
+    margin: 130px 30px;
+}
+
+.icon {
+    border: solid 2px #1c432a;
+    display: inline-block;
+    margin: 0px 80px;
+    padding: 5px;
+    text-align: center;
+}
+
+.description {
+    display: inline-block;
+    font-size: 33px;
+    /* font-style: */
+    padding: 25px 0px;
+    text-align: left;
+    vertical-align: top;
+    width: 301px;
+}
+
+p {
+    font-size: 20px;
+}
+
+img {
+    height: 285px;
+    width: 285px;
+}
+
+.icon img {
+    display: block;
+}
+
+.product {
+    border: solid 3px #1c432a;
+    display: inline-block;
+    height: 300px;
+    margin: 200px 330px;
+    /* padding: 200px; */
+    text-align: center;
+    width: 335px;
+}
+
+fieldset {
+    border-color: #022110;
+    border-style: solid;
+    border-width: 1px;
+    /* height: 250px; */
+    margin: 50px auto;
+    width: 260px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+   
+label {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}
+
+legend {
+    margin: 0 20px;
+    padding: 5px;
+}
+
+textarea,
+input {
+    display: block;
+    margin: 0 auto;
+    padding: 5px;
+    width: 200px;
+}
+
+/* input {
+    
+} */
+
+textarea {
+    text-align: center;
+    resize: none;
+}
+
+button {
+    background-color: #e9ffef;
+    border: 1px solid;
+    cursor: pointer;
+    display: block;
+    font-size: 16px;
+    height: 35px;
+    margin: 0 auto;
+    padding: 15 32px;
+    width: 80px;
+}
+
+.info {
+    font-size: 18px;
+}
+
+.product-link {
+    display: inline-block;
+    font-size: 30px;
+}
+
+.product-page {
+    text-align: center;
+    border: solid 3px #1c432a;
+    display: inline-block;
+    margin: 80px;
+    padding: 5px;
+}
+
+.click-here {
+    display: inline-block;
+    font-size: 33px;
+    text-align: center;
+    /* width: 100px; */
+}
+
+.footer {
+    display: inline-block;
+    /* margin-top: 250px; */
+    margin-bottom: 100px; 
+    width: 100%;
+    font-size: 20px;
+    text-align: center;
+}
+
